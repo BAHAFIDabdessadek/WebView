@@ -11,4 +11,15 @@
         android:id="@+id/webview1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="356dp"
+        android:layout_height="135dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1875993658651440/4975568810"></com.google.android.gms.ads.AdView>
+
+
 </RelativeLayout>
