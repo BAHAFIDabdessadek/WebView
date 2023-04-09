@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         webView1 =(WebView) findViewById(R.id.webview1);
         webView1.setWebViewClient(new WebViewClient());
 
-        webView1.loadUrl("https://www.Multimillionnaire.com/");
+        webView1.loadUrl("https://live.yacine-tv.app/");
 
         WebSettings webSettings = webView1.getSettings();
         webSettings.setJavaScriptEnabled(true);
